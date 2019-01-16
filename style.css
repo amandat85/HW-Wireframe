@@ -7,23 +7,52 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
+    background-color: #777;
 }
 
 header, nav, section, aside, footer {
     background-color: #ebebeb;
 }
 
+header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 15px;
+}
+
 aside {
-    width: 495px;
+    width: 465px;
+    float: right;
 }
 section {
     width: 495px;
+    float: left;
+    margin-bottom: 15px;
+    position: relative;
+    height: 200px;
 }
 
 article {
     color: #ebebeb;
     background-color: #777;
     width: 495px;
+    margin-top: 40px;
+    position: absolute;
+
+}
+
+footer {
+    clear: both;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 15px;
 }
 
 .text {
